@@ -1,0 +1,89 @@
+package ch1;
+
+public class Hw_0910 {
+
+	public static void main(String[] args) {
+		int apple = 12; //1
+		System.out.println(apple);
+		
+		int year = 2025;//2
+		System.out.println(year);
+		
+		int money = -1000;//3
+		System.out.println(money);
+		
+		double length = 9.8;//4
+		System.out.println(length);
+		
+		double score = 88.5;//5
+		System.out.println(score);
+		
+		double minusValue = -4.6;//6
+		System.out.println(minusValue);
+		
+		String food = "떡볶이";//7
+		System.out.println(food);
+		
+		String city = "서울";//8
+		System.out.println(city);
+		
+		String hobby = "코딩";//9
+		System.out.println(hobby);
+		
+		boolean hasCar = false;//10
+		System.out.println(hasCar);
+		
+		boolean isStudent = true;//11
+		System.out.println(isStudent);
+		
+		boolean isWeekend = false;//12
+		System.out.println(isWeekend);
+		
+		int a=10, b=3;//1
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		int sum = 12+8;//2
+		System.out.println(sum);
+		int total = 20/3;//3
+		System.out.println(total);
+		int mod = 14%5;//4
+		System.out.println(mod);
+		int q5= 5%5; // %는 나머지를 구하는 연산자이기에 0의 결과를 가짐
+		System.out.println(q5);
+		int q6 = 5%4; // 위와 같은 연산자로 나머지 1의 결과를 가짐
+		System.out.println(q6);
+		int q7 = 5%3; // 위와 같은 연산자로 나머지 2의 결과를 가짐
+		System.out.println(q7);
+		int q8 = 5%2; // 위와 같은 연산자로 나머지 3의 결과를 가짐
+		System.out.println(q8);
+		int q9 = 5%1; // 위와 같은 연산자로 나머지 4의 결과를 가짐
+		System.out.println(q9);
+		int q10 = 5%7; // 위와 같은 연산자로 나머지 5의 결과를 가짐
+		System.out.println(q10);
+		//int q11 = 5%0; // 0으로 나누는 건 에러가 뜨기 떄문에 에러 발생의 결과를 가짐
+		//System.out.println(q11);
+		boolean result1 = 15>20;
+		System.out.println(result1);
+		boolean result2 = 10==10;
+		System.out.println(result2);
+		boolean result3 = 7<=3;
+		System.out.println(result3);
+		a=5, b=7;
+		boolean q15_1 = a==b;
+		System.out.println(q15_1);
+		boolean q15_2 = a<b;
+		System.out.println(q15_2);
+		boolean q15_3 = a>b;
+		System.out.println(q15_3);
+		boolean q15_4 = a<=b;
+		System.out.println(q15_4);
+		boolean q15_5 = a>=b;
+		System.out.println(q15_5);
+		boolean q15_6 = a!=b;
+		System.out.println(q15_6);
+	}
+
+}

@@ -1,0 +1,24 @@
+package ch1;
+/*
+ * switch(값) {
+ * 	case value: {
+ * 		실행문;
+ * 		break;
+ * 	}case value: {
+ * 		실행문;
+ * 		break;
+ * 	}
+	default: {
+ * 		실행문;
+ * 	}
+ * }
+ */
+
+public class Control3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

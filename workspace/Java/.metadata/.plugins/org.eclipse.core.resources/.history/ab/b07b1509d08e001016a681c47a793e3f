@@ -1,0 +1,56 @@
+package ch1;
+
+import java.util.Scanner;
+
+public class Hw_0911 {
+
+	public static void main(String[] args) {
+		//Q1
+		String password = "qwer1234";
+		if(password.equalsIgnoreCase("qwer1234")) {
+			System.out.println("비밀번호가 맞아요!");
+		}else {
+			System.out.println("비밀번호가 틀렸어요!");
+		}
+		System.out.println("======================");
+		//Q2
+		Scanner sc = new Scanner(System.in);
+		System.out.println("비밀번호를 입력하세요: ");
+		String pw = sc.next();
+		if(pw.equalsIgnoreCase("qwer1234")) {
+			System.out.println("비밀번호가 맞아요!");
+		}else {
+			System.out.println("비밀번호가 틀렸어요!");
+		}
+		System.out.println("======================");
+		//Q3
+		String animal = "강아지";
+		if(animal.equals("강아지")) {
+			System.out.println("멍멍!");
+		}else if(animal.equals("고양이")){
+			System.out.println("야옹!");
+		}else {
+			System.out.println("무슨 동물이야 ?");
+		}
+		//Q4
+		String animal2 = sc.next();
+		if(animal2.equals("강아지")) {
+			System.out.println("멍멍!");
+		}else if(animal2.equals("고양이")){
+			System.out.println("야옹!");
+		}else {
+			System.out.println("무슨 동물이야 ?");
+		}
+		//Q5
+		String animal2 = sc.next();
+		if(animal2.equals("강아지")) {
+			System.out.println("멍멍!");
+		}else if(animal2.equals("고양이")){
+			System.out.println("야옹!");
+		}else {
+			System.out.println("무슨 동물이야 ?");
+		}
+				
+	}
+
+}

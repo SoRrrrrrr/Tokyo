@@ -1,0 +1,25 @@
+package ch1;
+
+public class Hw_0910 {
+
+	public static void main(String[] args) {
+		int apple = 12; //1
+		int year = 2025;//2
+		int money = -1000;//3
+		double length = 9.8;//4
+		double score = 88.5;//5
+		double minusValue = -4.6;//6
+		String food = "떡볶이";//7
+		String city = "서울";//8
+		String hobby = "코딩";//9
+		boolean hasCar = false;//10
+		boolean isStudent = true;//11
+		boolean isWeekend = false;//12
+		
+		int a=10, b=3;
+		c=
+		
+		
+	}
+
+}
