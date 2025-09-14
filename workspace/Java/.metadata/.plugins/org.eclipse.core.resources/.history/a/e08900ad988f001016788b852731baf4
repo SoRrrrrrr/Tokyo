@@ -1,0 +1,32 @@
+package ch2;
+
+import java.util.Scanner;
+
+public class Hw_250912 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		//Q1
+		System.out.println("치킨 몇 마리 주문하실 건가요 ?");
+		int chicken = sc.nextInt();
+		for(int i=1;i<=chicken;i++) {
+			System.out.println("치킨 "+i+"마리 주문이요.");
+		}
+		System.out.println("====================");
+		//Q2
+		System.out.println("스쿼트 몇 번 할까요 ?");
+		int squat = sc.nextInt();
+		for(int i=1;i<=squat;i++) {
+			System.out.println("스쿼트 "+i+"회 완료");
+		}System.out.println("오늘 운동 끝");
+		//Q3
+		System.out.println("====================");
+		System.out.println("구구단 몇 단 ?");
+		int num = sc.nextInt();
+		for(int i=1;i<10;i++) {
+			System.out.print(num, "x", i, "=", num*i);
+			System.out.println();
+		}	
+	}
+
+}

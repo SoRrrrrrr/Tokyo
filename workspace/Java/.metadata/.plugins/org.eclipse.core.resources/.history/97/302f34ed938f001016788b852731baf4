@@ -1,0 +1,18 @@
+package ch2;
+
+import java.util.Scanner;
+
+public class Hw_250912 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		//Q1
+		System.out.println("치킨 몇 마리 주문하실 건가요 ?");
+		int chicken = sc.nextInt();
+		for(int i=1;i<=chicken;i++) {
+			System.out.println("치킨 "+i+"마리 주문이요.");
+		}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package ch1;
+
+import java.util.Scanner;
+
+public class Control5 {
+
+	public static void main(String[] args) {
+		//1~10까지의 정수 중 하나를 입력받아 홀/짝수 출력
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1에서 10 중 하나를 입력하세요: ");
+		int num = sc.nextInt();
+		
+		if (num<11 && num > 0) {
+			if (num%2==0) System.out.println("짝수 입니다.");
+			else System.out.println("홀수 입니다.");
+		}else {
+			System.out.println("1-10 범위 내의 숫자를 입력하세요.");
+		}		
+	}
+}

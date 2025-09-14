@@ -1735,3 +1735,65 @@ java.lang.NullPointerException
 	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator$1.run(M2ELogbackConfigurator.java:136)
 	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
 	at java.base/java.util.TimerThread.run(Timer.java:516)
+!SESSION 2025-09-12 13:01:02.572 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/gwonsoryeong/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/gwonsoryeong/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-12 13:01:07.052
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-12 13:01:16.457
+!MESSAGE Logback config file: /Users/gwonsoryeong/Desktop/Tokyo/workspace/Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY ch.qos.logback.classic 2 0 2025-09-12 13:01:16.478
+!MESSAGE Exception while setting up logging:null
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.io.File.<init>(File.java:278)
+	at ch.qos.logback.core.joran.spi.ConfigurationWatchList.convertToFile(ConfigurationWatchList.java:244)
+	at ch.qos.logback.core.joran.spi.ConfigurationWatchList.addAsFileToWatch(ConfigurationWatchList.java:108)
+	at ch.qos.logback.core.joran.spi.ConfigurationWatchList.setMainURL(ConfigurationWatchList.java:78)
+	at ch.qos.logback.core.joran.util.ConfigurationWatchListUtil.setMainWatchURL(ConfigurationWatchListUtil.java:48)
+	at ch.qos.logback.core.joran.GenericXMLConfigurator.informContextOfURLUsedForConfiguration(GenericXMLConfigurator.java:113)
+	at ch.qos.logback.core.joran.GenericXMLConfigurator.doConfigure(GenericXMLConfigurator.java:59)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.loadConfiguration(M2ELogbackConfigurator.java:113)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.configureLogback(M2ELogbackConfigurator.java:88)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.lambda$0(M2ELogbackConfigurator.java:63)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator$1.run(M2ELogbackConfigurator.java:136)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+!SESSION 2025-09-14 15:21:16.468 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/gwonsoryeong/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/gwonsoryeong/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-14 15:21:20.118
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-14 15:21:59.808
+!MESSAGE Logback config file: /Users/gwonsoryeong/Desktop/Tokyo/workspace/Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY ch.qos.logback.classic 2 0 2025-09-14 15:21:59.834
+!MESSAGE Exception while setting up logging:null
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.io.File.<init>(File.java:278)
+	at ch.qos.logback.core.joran.spi.ConfigurationWatchList.convertToFile(ConfigurationWatchList.java:244)
+	at ch.qos.logback.core.joran.spi.ConfigurationWatchList.addAsFileToWatch(ConfigurationWatchList.java:108)
+	at ch.qos.logback.core.joran.spi.ConfigurationWatchList.setMainURL(ConfigurationWatchList.java:78)
+	at ch.qos.logback.core.joran.util.ConfigurationWatchListUtil.setMainWatchURL(ConfigurationWatchListUtil.java:48)
+	at ch.qos.logback.core.joran.GenericXMLConfigurator.informContextOfURLUsedForConfiguration(GenericXMLConfigurator.java:113)
+	at ch.qos.logback.core.joran.GenericXMLConfigurator.doConfigure(GenericXMLConfigurator.java:59)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.loadConfiguration(M2ELogbackConfigurator.java:113)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.configureLogback(M2ELogbackConfigurator.java:88)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator.lambda$0(M2ELogbackConfigurator.java:63)
+	at org.eclipse.m2e.logback.configuration.M2ELogbackConfigurator$1.run(M2ELogbackConfigurator.java:136)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)

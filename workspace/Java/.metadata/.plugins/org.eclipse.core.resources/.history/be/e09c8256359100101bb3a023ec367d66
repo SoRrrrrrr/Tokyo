@@ -1,0 +1,81 @@
+package ch2;
+
+import java.util.Scanner;
+
+public class Hw_250912 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+//		//Q1
+//		System.out.println("치킨 몇 마리 주문하실 건가요 ?");
+//		int chicken = sc.nextInt();
+//		for(int i=1;i<=chicken;i++) {
+//			System.out.println("치킨 "+i+"마리 주문이요.");
+//		}
+//		System.out.println("====================");
+//		//Q2
+//		System.out.println("스쿼트 몇 번 할까요 ?");
+//		int squat = sc.nextInt();
+//		for(int i=1;i<=squat;i++) {
+//			System.out.println("스쿼트 "+i+"회 완료");
+//		}System.out.println("오늘 운동 끝");
+//		System.out.println("====================");
+//		//Q3
+//		System.out.println("숫자를 입력하세요: ");
+//		int n = sc.nextInt();
+//		for(int i=0;i<=n;i+=2) {
+//			System.out.println(i);
+//		}
+//		System.out.println("====================");
+//		//Q4
+//		System.out.println("두 수를 입력 하세요: ");
+//		int n1 = sc.nextInt();
+//		int n2 = sc.nextInt();
+//		for (int i = n1+1; i<n2;i++) {
+//			System.out.println(i);
+//		}
+//		//Q5
+//		System.out.println("====================");
+//		System.out.println("구구단 3단");
+//		for(int i=1;i<10;i++) {
+//			System.out.printf("3 x %d = %d", i, 3*i);
+//			System.out.println();
+//		}	
+//		//Q6
+//		System.out.println("====================");
+//		System.out.println("구구단 몇 단 ?");
+//		int num = sc.nextInt();
+//		for(int i=1;i<10;i++) {
+//			System.out.printf("%d x %d = %d", num, i, num*i);
+//			System.out.println();
+//		}	
+//		//Q7
+//		System.out.println("====================");
+//		System.out.println("숫자를 입력하세요: ");
+//		int n = sc.nextInt();
+//		for(int i=1;i<=n;i++) {
+//			if (i%3==0) System.out.println("점프!");
+//			else System.out.println("패스");
+//		}
+//		//Q8
+//		System.out.println("====================");
+//		System.out.println("숫자를 입력하세요: ");
+//		int n = sc.nextInt();
+//		for(int i=0;i<n;i++) {
+//			for(int j=0;j<n;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+		//Q9
+		System.out.println("====================");
+		System.out.println("피자 조각 개수: ");
+		int pizza = sc.nextInt();
+		System.out.println("사람 수: ");
+		int person = sc.nextInt();
+		System.out.printf("한 사람 당 %d조각 먹을 수 있고, %d조각 남습니다.",pizza/person, pizza%person);
+		
+		
+		
+	}
+}

@@ -1,0 +1,41 @@
+package ch2;
+
+/*
+ * for 반복문
+ * 정해진 조건만큼 반복
+ * 
+ * for(초기값; 조건식; 증감값){
+ * 	실행문;
+ * }
+ * 
+ */
+
+public class ForEx1 {
+
+	public static void main(String[] args) {
+		// 1~5까지 출력 
+		// i++ : 후위증가
+		// ++i : 전위증가
+		// --i : 전위감소
+		for(int i=1;i<6;i++) {
+			System.out.println(i);
+		}
+		System.out.println("===========");
+		//빠잉~ 3번 출력
+		for(int a=0;a<3;a++) {
+			System.out.println("빠잉~");
+		}
+		System.out.println("===========");
+		// 10-1까지 거꾸로 출력
+		for(int b=10; b>0 ; b--) {
+			System.out.println(b);
+		}
+		System.out.println("===========");
+		// 1-10까지 중 홀수만 출력
+		for(int c=1; c<=10 ; c+=2) {
+			System.out.println(c);
+		}
+		
+	}
+
+}
