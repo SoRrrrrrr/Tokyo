@@ -1,4 +1,5 @@
 package ch2;
+
 import java.util.Scanner;
 /*
  * 	반복문
@@ -42,13 +43,16 @@ public class WhileEx1 {
 		}
 		//두 수를 입력받아 합계 출력
 		System.out.println("===============");
+		System.out.println("숫자를 입력하세요: ");
 		int sum = 0;
+		int count = 0;
 		int n1 = sc.nextInt();
 		int n2 = sc.nextInt();
-		while()
-		
-		
-
+		// 한 번만 실행
+		while(count < 1) {
+			sum= n1+n2;
+			count++; //1 증가되면 다음은 반복되지 않음
+		}
+		System.out.println(sum);
 	}
-
 }

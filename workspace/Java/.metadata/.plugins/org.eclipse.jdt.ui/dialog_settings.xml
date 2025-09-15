@@ -3,8 +3,8 @@
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-17"/>
 	<section name="JavaProjectWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="547"/>
-		<item key="DIALOG_Y_ORIGIN" value="233"/>
+		<item key="DIALOG_X_ORIGIN" value="23"/>
+		<item key="DIALOG_Y_ORIGIN" value="218"/>
 		<item key="DIALOG_WIDTH" value="790"/>
 		<item key="DIALOG_HEIGHT" value="807"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
@@ -12,7 +12,7 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="400"/>
+		<item key="DIALOG_X_ORIGIN" value="227"/>
 		<item key="DIALOG_Y_ORIGIN" value="233"/>
 		<item key="DIALOG_WIDTH" value="586"/>
 		<item key="DIALOG_HEIGHT" value="650"/>

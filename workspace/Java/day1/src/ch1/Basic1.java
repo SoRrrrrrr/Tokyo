@@ -1,7 +1,13 @@
 package ch1;
 
-public class Basic1 { //class name = source file name
+import java.util.Scanner;
+
+public class Basic1 { 
 	public static void main(String[] args) {
-		System.out.println("안녕 ?");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자를 입력하세요: ");
+		int num = sc.nextInt();
+		if (num%2==0) System.out.println(num);
+		else return;
 	}
 }

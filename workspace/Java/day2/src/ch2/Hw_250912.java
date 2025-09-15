@@ -83,7 +83,7 @@ public class Hw_250912 {
 		System.out.printf("첫 번째 주사위 : %d, 두 번째 주사위: %d, 두 수의 합: %d", result1, result2, result1+result2);
 		//Q11
 		System.out.println("====================");
-		int target = ran.nextInt(50);
+		int target = ran.nextInt(51);
 		while(true) {
 			int user = sc.nextInt();
 			if (user==target) {
