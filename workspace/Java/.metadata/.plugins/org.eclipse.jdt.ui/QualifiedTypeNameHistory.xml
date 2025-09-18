@@ -7,4 +7,10 @@
     <fullyQualifiedTypeName name="Hw_250916.Idol"/>
     <fullyQualifiedTypeName name="Hw_250916.DeliveryOrder"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ch1.User"/>
+    <fullyQualifiedTypeName name="ch1.Singleton"/>
+    <fullyQualifiedTypeName name="ch2.Customer"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Hw_250918.Bicycle"/>
+    <fullyQualifiedTypeName name="Hw_250918.Car"/>
 </qualifiedTypeNameHistroy>
